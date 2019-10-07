@@ -1,0 +1,1 @@
+CreateObject("Wscript.Shell").Run "node mcbot.js", 0
