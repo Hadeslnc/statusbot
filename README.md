@@ -22,6 +22,7 @@ To launch bot:
 6. Enter here TOKEN from your app in discord developers portal
   - TOKEN is not app ID or SECRET
 7. Enter here SERVER-IP-ADRESS and SERVER-PORT
+  - Server address also may be a domain name. Server port by default '25565' if none provided
 8. Save config then close
 9. Add bot to your server
 10. Launch bot with any of these 3 ways
