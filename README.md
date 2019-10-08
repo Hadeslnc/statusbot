@@ -1,11 +1,16 @@
 
 This is discord bot for checking minecraft server status created by CalleyInc
+
 Request URL code is writen by vegeta897's
 
+
 WARNING!!! API that uses this bot can ban your ip for too frequent update of status
+
 Ban on your ip adress will cause need to search another api and adding it to main code
 
+
 In order to launch this bot you have to install Node.js and create an app in discord developers portal
+
 
 To launch bot:
 1. Unpack archive in any place on your pc
@@ -13,7 +18,7 @@ To launch bot:
 3. Type "npm install"
   - It's important working directory of command prompt is bot directory. Otherwise you'd get install error.
 4. After its done installing, close cmd
-5. Open config.json file
+5. Open 'config.json' file
 6. Enter here TOKEN from your app in discord developers portal
   - TOKEN is not app ID or SECRET
 7. Enter here SERVER-IP-ADRESS and SERVER-PORT
