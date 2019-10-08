@@ -8,7 +8,7 @@ var request = require('request');
 var mcCommand = '/minecraft'; // Command for triggering
 var mcIP = settings.ip; // Your MC server IP
 var mcPort = settings.port; // Your MC server port
-var url = 'https://api.mcsrvstat.us/2/' + mcIP;
+var url = 'https://api.mcsrvstat.us/2/' + mcIP + ':' + mcPort;
 
 
 
