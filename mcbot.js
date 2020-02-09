@@ -8,7 +8,7 @@ var request = require('request');
 var mcCommand = '/minecraft'; // Command for triggering
 var mcIP = settings.ip; // Your MC server IP
 var mcPort = settings.port; // Your MC server port
-var url = 'https://api.mcsrvstat.us/2/' + mcIP + ':' + mcPort;
+var url = 'https://api.mcsrvsta.us/2/' + mcIP + ':' + mcPort;
 
 
 
@@ -34,7 +34,7 @@ function update() {
     		.catch(console.error);
           	}
             	if(body.players.online>=1) { //check if there 1 or more players on server, then
-               		status = ' ' + body.players.online + '  /  ' + body.players.max + " | .help"; //Show as status players count
+               		status = ' ' + "Глупо, очень -_-"; //Show as status players count
             	} 
 		}
      }
